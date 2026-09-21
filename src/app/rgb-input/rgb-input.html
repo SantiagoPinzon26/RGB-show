@@ -1,0 +1,49 @@
+<h2>Entrada RGB</h2>
+
+<div>
+  <label>Color:</label>
+
+  <input
+    type="text"
+    [(ngModel)]="valorColor"
+    placeholder="Ej: 255,0,0 o FF0000">
+
+  <button (click)="aplicarColor()">
+    Show
+  </button>
+</div>
+
+<br>
+
+<div>
+  <label>R:</label>
+
+  <input
+    type="number"
+    min="0"
+    max="255"
+    [(ngModel)]="r"
+    (ngModelChange)="cambiarR()">
+</div>
+
+<div>
+  <label>G:</label>
+
+  <input
+    type="number"
+    min="0"
+    max="255"
+    [(ngModel)]="g"
+    (ngModelChange)="cambiarG()">
+</div>
+
+<div>
+  <label>B:</label>
+
+  <input
+    type="number"
+    min="0"
+    max="255"
+    [(ngModel)]="b"
+    (ngModelChange)="cambiarB()">
+</div>

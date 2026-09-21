@@ -1,0 +1,10 @@
+.contenedor {
+  display: flex;
+  gap: 40px;
+}
+
+.cuadro {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}

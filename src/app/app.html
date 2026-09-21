@@ -1,0 +1,24 @@
+<h1>Conversor RGB</h1>
+
+<app-rgb-input
+  [r]="r"
+  [g]="g"
+  [b]="b"
+  (rgbChange)="actualizarRGB($event)">
+</app-rgb-input>
+
+<hr>
+
+<app-rgb-info
+  [r]="r"
+  [g]="g"
+  [b]="b">
+</app-rgb-info>
+
+<hr>
+
+<app-color-display
+  [r]="r"
+  [g]="g"
+  [b]="b">
+</app-color-display>

@@ -1,0 +1,27 @@
+<h2>Visualización</h2>
+
+<div class="contenedor">
+
+  <div>
+    <p>Color original</p>
+
+    <div
+      class="cuadro"
+      [style.background-color]="color">
+    </div>
+
+    <p>{{ color }}</p>
+  </div>
+
+  <div>
+    <p>Escala de grises</p>
+
+    <div
+      class="cuadro"
+      [style.background-color]="colorGris">
+    </div>
+
+    <p>{{ gris }}, {{ gris }}, {{ gris }}</p>
+  </div>
+
+</div>
